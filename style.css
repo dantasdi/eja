@@ -14,12 +14,12 @@ header {
 
 body {
     font-family: 'Quicksand', sans-serif;
-    background-image: url("https://unsplash.com/photos/_JBKdviweXI");
+    background-image: url(muro2.jpg)
 }
 
 
 
-img { max-width: 100%;}
+img {max-width: 100%;}
 
 div {
     padding: 50px 50px 75px 100px;
@@ -48,7 +48,7 @@ p {
 
 #caixa {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr ;
     grid-gap: 20px;
     
 }
@@ -60,17 +60,19 @@ p {
     color: #000;
     text-decoration: none;
     display: inline-block;
+    
 }
  
 .cartao {
     background-color: #DBDED1;
     padding: 18px;
     border-radius: 5px;
-}
+    }
 
 footer{
     background-color: black;
     color: blanchedalmond;
+    
     
      }
 
